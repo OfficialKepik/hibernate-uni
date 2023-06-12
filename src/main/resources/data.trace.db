@@ -1,0 +1,8 @@
+2023-06-12 19:57:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT * FROM PERSON PASSPORT [*]PERSON"
+Syntax error in SQL statement "SELECT * FROM PERSON PASSPORT [*]PERSON"; SQL statement:
+SELECT * FROM PERSON PASSPORT PERSON [42000-212]
+2023-06-12 19:57:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT * FROM PERSON PASSPORT [*]PERSON"
+Syntax error in SQL statement "SELECT * FROM PERSON PASSPORT [*]PERSON"; SQL statement:
+SELECT * FROM PERSON PASSPORT PERSON [42000-212]
