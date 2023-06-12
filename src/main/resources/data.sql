@@ -1,8 +1,8 @@
-delete from passport;
-delete from person;
+delete from comment;
+delete from post;
 
-insert into passport (id,number,country) values(1,'DB2351345', 'BY');
-insert into passport (id,number,country) values(2,'DB1233346', 'BY');
+insert into post (id,content) values(1,'Post 1');
+insert into post (id,content) values(2,'Post 2');
 
-insert into person (id,first_name, last_name, passport_id) values(1,'Ivan', 'Ivanov',1);
-insert into person (id,first_name, last_name, passport_id) values(2,'John', 'Smith',2);
+insert into comment(id,content) values(1,'Comment 1');
+insert into comment(id,content) values(2,'Comment 2'); 
